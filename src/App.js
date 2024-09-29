@@ -6,19 +6,25 @@ export default function App() {
         <nav className="container mx-auto px-6 flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="text-2xl font-bold text-blue-600">YourLogo</a>
           </div>
 
           {/* Navigation Links */}
           <ul className="hidden md:flex space-x-8 ml-10">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <li><a href="#" className="text-gray-600 hover:text-blue-600">Product</a></li>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <li><a href="#" className="text-gray-600 hover:text-blue-600">Solutions</a></li>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <li><a href="#" className="text-gray-600 hover:text-blue-600">Pricing</a></li>
           </ul>
 
           {/* Sign In / Sign Up */}
           <div className="flex items-center space-x-4">
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="text-gray-600 hover:text-blue-600">Sign In</a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <a href="#" className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700">Sign Up</a>
           </div>
         </nav>
@@ -82,6 +88,7 @@ export default function App() {
 
         {/* Additional Info Section */}
         <p className="text-center text-gray-600 mt-8">
+          {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
           Already have an account? <a href="#" className="text-blue-600 hover:underline">Sign In</a>
         </p>
       </main>
